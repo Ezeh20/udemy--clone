@@ -3,6 +3,8 @@ const navClose = document.getElementById("nav-close");
 const backdrop = document.getElementById("back-drop");
 const courseContent = document.getElementsByClassName("course_content");
 const courseHeader = document.querySelectorAll(".course_header");
+const Feedback = document.getElementById("feed");
+const Move = document.getElementById("move");
 
 if (navToggle) {
   navToggle.addEventListener("click", () => {
@@ -28,3 +30,23 @@ function toggleCourse() {
 courseHeader.forEach((ele) => {
   ele.addEventListener("click", toggleCourse);
 });
+
+const Scroll = () => {
+  const right = document.getElementById("feed");
+  right.scrollLeft = right.scrollLeft + 120;
+};
+
+const ScrollAlt = () => {
+  const right = document.getElementById("feed");
+  right.scrollLeft = right.scrollLeft - 120;
+};
+
+const ScrollStu = () => {
+  const Student = document.getElementById("stu");
+  Student.scrollLeft = Student.scrollLeft + 500;
+};
+
+const ScrollStuAlt = () => {
+  const Student = document.getElementById("stu");
+  Student.scrollLeft = Student.scrollLeft - 500;
+};

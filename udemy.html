@@ -137,7 +137,6 @@
 
     <!-----------------------------------------CTA--------------------------------------------------------------------->
     <section class="section-1">
-        <img src="/assets/mobile.png" alt="" class="img">
         <div class="text-cta container">
             <div class="up">
                 <p class="cta-header">Make learning part of your holidays</p>
@@ -151,8 +150,7 @@
             </div>
             <div class="last">
                 <p class="cta-header">A broad selection of courses</p>
-                <p class="cta-text cta-text-text">Choose from 213,000 online video courses with new additions published
-                    every month.
+                <p class="cta-text cta-text-text">Choose from courses in English and many other languages
                 </p>
             </div>
         </div>
@@ -1531,11 +1529,129 @@
         </div>
     </section>
 
+    <!-------------------------------------------Feedback---------------------------------------------------------------->
+    <section class="featured feedback">
+
+        <div class="featured-container container">
+            <h3 class="stu-head">How learners like you are achieving their goals</h3>
+            <div class="feedback-card-container" id="feed">
+                <div class="card">
+                    <i class="ri-double-quotes-l feedback-icon"></i>
+                    <p class="card-text">I am proud to say that after a few months of taking this course... <span
+                            class="lie">I passed my
+                            exam and am now an AWS Certified Cloud Practitioner!</span> This content was exactly
+                        what
+                        the CCP exam
+                        covered.</p>
+                    <div class="profile">
+                        <div class="initials">
+                            WA
+                        </div>
+                        <p class="name">Will A</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="cert">
+                        <div class="player">
+                            <i class="ri-play-fill feedback-icon play"></i>
+                        </div>
+                        <p class="cert-text">
+                            [NEW] Ultimate AWS Certified <br> Cloud Practitional - 2022
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <i class="ri-double-quotes-l feedback-icon"></i>
+                    <p class="card-text">I am proud to say that after a few months of taking this course... <span
+                            class="lie">I passed my
+                            exam and am now an AWS Certified Cloud Practitioner!</span> This content was exactly
+                        what
+                        the CCP exam
+                        covered.</p>
+                    <div class="profile">
+                        <div class="initials">
+                            WA
+                        </div>
+                        <p class="name">Will A</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="cert">
+                        <div class="player">
+                            <i class="ri-play-fill feedback-icon play"></i>
+                        </div>
+                        <p class="cert-text">
+                            [NEW] Ultimate AWS Certified <br> Cloud Practitional - 2022
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <i class="ri-double-quotes-l feedback-icon"></i>
+                    <p class="card-text">I am proud to say that after a few months of taking this course... <span
+                            class="lie">I passed my
+                            exam and am now an AWS Certified Cloud Practitioner!</span> This content was exactly
+                        what
+                        the CCP exam
+                        covered.</p>
+                    <div class="profile">
+                        <div class="initials">
+                            WA
+                        </div>
+                        <p class="name">Will A</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="cert">
+                        <div class="player">
+                            <i class="ri-play-fill feedback-icon play"></i>
+                        </div>
+                        <p class="cert-text">
+                            [NEW] Ultimate AWS Certified <br> Cloud Practitional - 2022
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <i class="ri-double-quotes-l feedback-icon"></i>
+                    <p class="card-text">I am proud to say that after a few months of taking this course... <span
+                            class="lie">I passed my
+                            exam and am now an AWS Certified Cloud Practitioner!</span> This content was exactly
+                        what
+                        the CCP exam
+                        covered.</p>
+                    <div class="profile">
+                        <div class="initials">
+                            WA
+                        </div>
+                        <p class="name">Will A</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="cert">
+                        <div class="player">
+                            <i class="ri-play-fill feedback-icon play"></i>
+                        </div>
+                        <p class="cert-text">
+                            [NEW] Ultimate AWS Certified <br> Cloud Practitional - 2022
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="arr" id="move" onclick="Scroll()">
+            <i class="ri-arrow-right-s-line caro"></i>
+        </div>
+
+        <div class="arr right" id="move" onclick="ScrollAlt()">
+            <i class="ri-arrow-left-s-line caro"></i>
+        </div>
+
+    </section>
+
     <!--------------------------------------Students------------------------------------------------------------------------>
     <section class="students">
         <div class="students-container container">
             <h3 class="stu-head">Students are viewing</h3>
-            <div class="stu-items">
+            <div class="stu-items" id="stu">
 
                 <div class="first-grp">
                     <div class="grp-itm">
@@ -1904,7 +2020,17 @@
 
 
             </div>
+
+
+            <div class="obo " " onclick=" ScrollStu()">
+                <i class="ri-arrow-right-s-line car"></i>
+            </div>
+
+            <div class="obo obo-left" onclick="ScrollStuAlt()">
+                <i class="ri-arrow-left-s-line car"></i>
+            </div>
         </div>
+
     </section>
 
     <!---------------------------------------Categories-------------------------------------------------------------------->
@@ -1936,6 +2062,65 @@
                 <div class="cat-cat">
                     <p class="cat-text">Music</p>
                 </div>
+            </div>
+            <div class="categories-show">
+
+                <div class="cards">
+                    <div class="cat-cardd">
+                        <img src="assets/cat/1st-removebg-preview.png" alt="" class="cat-img">
+                    </div>
+                    <p class="card-name">Design</p>
+                </div>
+
+                <div class="cards">
+                    <div class="cat-cardd">
+                        <img src="assets/cat/2nd-removebg-preview.png" alt="" class="cat-img">
+                    </div>
+                    <p class="card-name">Development</p>
+                </div>
+
+                <div class="cards">
+                    <div class="cat-cardd">
+                        <img src="assets/cat/3rd-removebg-preview.png" alt="" class="cat-img">
+                    </div>
+                    <p class="card-name">Marketing</p>
+                </div>
+
+                <div class="cards">
+                    <div class="cat-cardd">
+                        <img src="assets/cat/4th-removebg-preview.png" alt="" class="cat-img">
+                    </div>
+                    <p class="card-name">IT and Software</p>
+                </div>
+
+                <div class="cards">
+                    <div class="cat-cardd">
+                        <img src="assets/cat/5th-removebg-preview.png" alt="" class="cat-img">
+                    </div>
+                    <p class="card-name">Personal Development</p>
+                </div>
+
+                <div class="cards">
+                    <div class="cat-cardd">
+                        <img src="assets/cat/6th-removebg-preview.png" alt="" class="cat-img">
+                    </div>
+                    <p class="card-name">Business</p>
+                </div>
+
+                <div class="cards">
+                    <div class="cat-cardd">
+                        <img src="assets/cat/7th-removebg-preview.png" alt="" class="cat-img">
+                    </div>
+                    <p class="card-name">Photography</p>
+                </div>
+
+                <div class="cards">
+                    <div class="cat-cardd">
+                        <img src="assets/cat/8th-removebg-preview.png" alt="" class="cat-img">
+                    </div>
+                    <p class="card-name">Music</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -2050,7 +2235,7 @@
                     </div>
                 </div>
             </div>
-            <div class="explore">
+            <div class="explore ">
                 Exeplore more topics
             </div>
         </div>
@@ -2061,7 +2246,7 @@
         <div class="instructor-container container">
             <div class="instructor-content">
                 <img src="assets/instructor/in1.jpg" alt="" class="in-img">
-                <div class="ins-text">
+                <div class="ins-text ud-b">
                     <h2 class="ins-header">Become an instructor</h2>
                     <p class="ins-para">Instructors from around the world teach millions of students on Udemy. We
                         provide the tools and skills to teach what you love.
@@ -2094,11 +2279,12 @@
 
     <section class="instructor">
         <div class="instructor-container container">
-            <div class="instructor-content">
+            <div class="instructor-content inst-rev">
                 <img src="assets/instructor/in2.jpg" alt="" class="in-img">
                 <div class="ins-text ud-b">
                     <img src="assets/instructor/logo-ub.svg" alt="" class="udemy-business">
-                    <p class="ins-para ins-paa">Get unlimited access to 19,000+ of Udemy’s top courses for your team. Learn and
+                    <p class="ins-para ins-paa">Get unlimited access to 19,000+ of Udemy’s top courses for your team.
+                        Learn and
                         improve skills across business, tech, design, and more.
                     </p>
                     <div class="explore exe-2">
@@ -2114,7 +2300,7 @@
             <div class="instructor-content">
                 <img src="assets/instructor/illu.jpg" alt="" class="in-img">
                 <div class="ins-text ud-b">
-                    <h3 class="stu-head trusted-head">Transform your life through education</h3>
+                    <h3 class="ins-header">Transform your life through education</h3>
                     <p class="ins-para">Learners around the world are launching new careers, advancing in their fields,
                         and enriching their lives.
                     </p>
@@ -2125,6 +2311,78 @@
             </div>
         </div>
     </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container container-2">
+            <div class="footer-top">
+                <div class="1st">
+                    <button class="btn-eng foot-eng">
+                        <i class="ri-global-line btn-btn-eng"></i>
+                        <p class="eng">English</p>
+                    </button>
+                </div>
+                <div class="nd">
+                    <ul class="nd-content">
+                        <a href="">
+                            <li class="footer-links">Udemy Business</li>
+                        </a>
+                        <a href="">
+                            <li class="footer-links">Teach on Udemy</li>
+                        </a>
+                        <a href="">
+                            <li class="footer-links">Get the app</li>
+                        </a>
+                        <a href="">
+                            <li class="footer-links">About us</li>
+                        </a>
+                        <a href="">
+                            <li class="footer-links">Contact us</li>
+                        </a>
+                    </ul>
+                    <ul class="nd-content">
+                        <a href="">
+                            <li class="footer-links">Careers</li>
+                        </a>
+                        <a href="">
+                            <li class="footer-links">Blog</li>
+                        </a>
+                        <a href="">
+                            <li class="footer-links">Help and support </li>
+                        </a>
+                        <a href="">
+                            <li class="footer-links">Affilate</li>
+                        </a>
+                        <a href="">
+                            <li class="footer-links">Investors</li>
+                        </a>
+                    </ul>
+                    <ul class="nd-content">
+                        <a href="">
+                            <li class="footer-links">Terms</li>
+                        </a>
+                        <a href="">
+                            <li class="footer-links">Privacy policy</li>
+                        </a>
+                        <a href="">
+                            <li class="footer-links">Cookies settings</li>
+                        </a>
+                        <a href="">
+                            <li class="footer-links">Sitemap</li>
+                        </a>
+                        <a href="">
+                            <li class="footer-links">Accessibility statment</li>
+                        </a>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg" alt=""
+                    class="logo-alt">
+                <p class="copy">© 2022 Udemy, Inc.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
