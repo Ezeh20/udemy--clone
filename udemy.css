@@ -386,7 +386,7 @@ html {
     height: 300px;
   }
 }
-
+/***********************************************************************************************************************************************************************/
 @media screen and (min-width: 1440px) {
   .new-card-container {
     margin-left: auto;
@@ -395,8 +395,8 @@ html {
     margin-bottom: 2rem;
   }
   .cta-img {
-    height: 450px;
-    object-position: 10%;
+    height: 400px;
+    object-position:10%;
   }
   .learn {
     display: none;
@@ -408,15 +408,15 @@ html {
     left: 5%;
     width:500px;
     background-color: #fff;
-    padding: 1.7rem;
+    padding:  1.7rem;
   }
   .cta-header{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 1rem;
   }
   .cta-text{
-    font-size: 18px;
+    font-size: 16px;
   }
   
 }
@@ -1029,14 +1029,14 @@ html {
   }
 
 }
-
+/**********************************************************************************************************************************************/
 @media screen and (min-width: 1900px) {
   .arr {
     display: flex;
-    right: 14.5%;
+    right: 10.7%;
   }
   .right {
-    left: 14.5%;
+    left: 10.7%;
   }
 }
 
@@ -1129,13 +1129,13 @@ html {
     left: 9%;
   }
 }
-
+/*********************************************************************************************************************************************************************/
 @media screen and (min-width:1920px) {
   .cta-ar{
-    right: 15%;
+    right: 11%;
   }
   .cta-ab{
-    left:15%;
+    left:11%;
   }
 }
 @media screen and (min-width: 500px) {
@@ -1349,9 +1349,10 @@ html {
     font-size: 22px;
     margin: .5rem 0;
   }
+  /**********************************************************************************************************************************************************************/
   .cta-header{
-    font-size: 38px;
-    margin-top: 3rem;
+    font-size: 30px;
+    margin-top: 1rem;
   }
   .py-head{
     font-size: 17px;
